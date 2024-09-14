@@ -8,7 +8,7 @@ print("Keys in the state_dict:")
 for key in state_dict.keys():
     print(key)
 
-# Print the size of each parameter
+# Print the size of each parameter sdf
 print("\nParameter sizes:")
 for key, value in state_dict.items():
     print(f'{key}: {value.size()}')
