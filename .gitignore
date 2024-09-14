@@ -1,0 +1,18 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+/venv
+
+# Log files
+*.log
+
+# Local configuration files (if any)
+config.ini
+.env
+
+# Large data files (if any)
+*.csv
+*.json
